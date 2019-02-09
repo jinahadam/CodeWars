@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8033F81E220E7D2400DE17E4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8033F81D220E7D2400DE17E4 /* main.swift */; };
 		8033F82D220E7DC100DE17E4 /* CodeWarsUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8033F82C220E7DC100DE17E4 /* CodeWarsUnitTests.swift */; };
+		8033F857220E9F3900DE17E4 /* AthleticsStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8033F856220E9F3900DE17E4 /* AthleticsStats.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +31,7 @@
 		8033F82C220E7DC100DE17E4 /* CodeWarsUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeWarsUnitTests.swift; sourceTree = "<group>"; };
 		8033F82E220E7DC100DE17E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8033F834220E869300DE17E4 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		8033F856220E9F3900DE17E4 /* AthleticsStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthleticsStats.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			children = (
 				8033F82C220E7DC100DE17E4 /* CodeWarsUnitTests.swift */,
 				8033F82E220E7DC100DE17E4 /* Info.plist */,
+				8033F856220E9F3900DE17E4 /* AthleticsStats.swift */,
 			);
 			path = CodeWarsUnitTests;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8033F82D220E7DC100DE17E4 /* CodeWarsUnitTests.swift in Sources */,
+				8033F857220E9F3900DE17E4 /* AthleticsStats.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
