@@ -29,6 +29,7 @@
 		8033F82A220E7DC100DE17E4 /* CodeWarsUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeWarsUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8033F82C220E7DC100DE17E4 /* CodeWarsUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeWarsUnitTests.swift; sourceTree = "<group>"; };
 		8033F82E220E7DC100DE17E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8033F834220E869300DE17E4 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +53,7 @@
 		8033F811220E7D2400DE17E4 = {
 			isa = PBXGroup;
 			children = (
+				8033F834220E869300DE17E4 /* MyPlayground.playground */,
 				8033F81C220E7D2400DE17E4 /* CodeWars */,
 				8033F82B220E7DC100DE17E4 /* CodeWarsUnitTests */,
 				8033F81B220E7D2400DE17E4 /* Products */,

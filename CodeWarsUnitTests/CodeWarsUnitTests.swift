@@ -8,28 +8,27 @@
 
 import XCTest
 
-func backwardsPrime(_ start: Int, _ stop: Int) -> [Int] {
-
-    func isPrime(_ n: Int) -> Bool {
-        for j in Array(2..<n) {
-            if n % j == 0  {
+extension Int {
+    func isPrime() -> Bool {
+        if self == 2 || self == 3 { return true }
+        for i in 2...Int(sqrt(Double(self))) {
+            if self % i == 0 {
                 return false
             }
         }
         return true
     }
+}
 
-    func reverseInt(_ n: Int) -> Int {
-        return Int(String(String(n).characters.reversed()))!
+func backwardsPrime(_ start: Int, _ stop: Int) -> [Int] {
+    return (start...stop).filter { number in
+        let backwardsInt = Int(String(String(number).characters.reversed()))!
+        guard number > 11, backwardsInt > 11, number != backwardsInt else {
+            return false
+        }
+
+        return number.isPrime() && backwardsInt.isPrime()
     }
-
-    func backPrime(_ n: Int) -> Bool {
-        let b = reverseInt(n)
-        guard n != b else { return false }
-        return isPrime(n) && isPrime(b)
-    }
-
-    return Array(start...stop).filter { backPrime($0) }
 }
 
 class SolutionTest: XCTestCase {
