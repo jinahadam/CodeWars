@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8033F81E220E7D2400DE17E4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8033F81D220E7D2400DE17E4 /* main.swift */; };
+		8033F82D220E7DC100DE17E4 /* CodeWarsUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8033F82C220E7DC100DE17E4 /* CodeWarsUnitTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +26,20 @@
 /* Begin PBXFileReference section */
 		8033F81A220E7D2400DE17E4 /* CodeWars */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodeWars; sourceTree = BUILT_PRODUCTS_DIR; };
 		8033F81D220E7D2400DE17E4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8033F82A220E7DC100DE17E4 /* CodeWarsUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeWarsUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8033F82C220E7DC100DE17E4 /* CodeWarsUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeWarsUnitTests.swift; sourceTree = "<group>"; };
+		8033F82E220E7DC100DE17E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8033F817220E7D2400DE17E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8033F827220E7DC100DE17E4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				8033F81C220E7D2400DE17E4 /* CodeWars */,
+				8033F82B220E7DC100DE17E4 /* CodeWarsUnitTests */,
 				8033F81B220E7D2400DE17E4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				8033F81A220E7D2400DE17E4 /* CodeWars */,
+				8033F82A220E7DC100DE17E4 /* CodeWarsUnitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +73,15 @@
 				8033F81D220E7D2400DE17E4 /* main.swift */,
 			);
 			path = CodeWars;
+			sourceTree = "<group>";
+		};
+		8033F82B220E7DC100DE17E4 /* CodeWarsUnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				8033F82C220E7DC100DE17E4 /* CodeWarsUnitTests.swift */,
+				8033F82E220E7DC100DE17E4 /* Info.plist */,
+			);
+			path = CodeWarsUnitTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +104,23 @@
 			productReference = 8033F81A220E7D2400DE17E4 /* CodeWars */;
 			productType = "com.apple.product-type.tool";
 		};
+		8033F829220E7DC100DE17E4 /* CodeWarsUnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8033F82F220E7DC100DE17E4 /* Build configuration list for PBXNativeTarget "CodeWarsUnitTests" */;
+			buildPhases = (
+				8033F826220E7DC100DE17E4 /* Sources */,
+				8033F827220E7DC100DE17E4 /* Frameworks */,
+				8033F828220E7DC100DE17E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodeWarsUnitTests;
+			productName = CodeWarsUnitTests;
+			productReference = 8033F82A220E7DC100DE17E4 /* CodeWarsUnitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -93,6 +132,9 @@
 				ORGANIZATIONNAME = "Jinah Adam";
 				TargetAttributes = {
 					8033F819220E7D2400DE17E4 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					8033F829220E7DC100DE17E4 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -110,9 +152,20 @@
 			projectRoot = "";
 			targets = (
 				8033F819220E7D2400DE17E4 /* CodeWars */,
+				8033F829220E7DC100DE17E4 /* CodeWarsUnitTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8033F828220E7DC100DE17E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8033F816220E7D2400DE17E4 /* Sources */ = {
@@ -120,6 +173,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8033F81E220E7D2400DE17E4 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8033F826220E7DC100DE17E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8033F82D220E7DC100DE17E4 /* CodeWarsUnitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +322,42 @@
 			};
 			name = Release;
 		};
+		8033F830220E7DC100DE17E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = MWPM7V4LD5;
+				INFOPLIST_FILE = CodeWarsUnitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinahadam.CodeWarsUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		8033F831220E7DC100DE17E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = MWPM7V4LD5;
+				INFOPLIST_FILE = CodeWarsUnitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinahadam.CodeWarsUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -278,6 +375,15 @@
 			buildConfigurations = (
 				8033F822220E7D2400DE17E4 /* Debug */,
 				8033F823220E7D2400DE17E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8033F82F220E7DC100DE17E4 /* Build configuration list for PBXNativeTarget "CodeWarsUnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8033F830220E7DC100DE17E4 /* Debug */,
+				8033F831220E7DC100DE17E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
