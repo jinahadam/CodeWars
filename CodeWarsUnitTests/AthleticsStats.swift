@@ -48,7 +48,7 @@ class AthleticsStats: XCTestCase {
 
     func testExample() {
 
-       var l = "01|15|59,01|47|16,01|17|20,01|32|34,02|17|17";
+        var l = "01|15|59,01|47|16,01|17|20,01|32|34,02|17|17";
         var sol = "Range: 01|01|18 Average: 01|38|05 Median: 01|32|34"
         dotest(l,sol);
 
