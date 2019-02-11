@@ -1,4 +1,20 @@
 import Cocoa
 
-"Range: 00|31|17 Average: 02|27|10 Median: 02|32|34")
-"Range: 00|31|17 Average: 02|27|10 Median: 02|24|57")
+
+var b = [1,2,3,4]
+
+//let count = a.count - 1
+//for i in 0..<a.count - 1 {
+//    if i == a.count/2 { break }
+//    print(i, count - i)
+//}
+
+let a = [1,2,3,4]
+let a1 = zip(a[0..<a.count/2], a[a.count/2..<a.count].reversed())
+var folded = a1.map { $0 + $1 }
+print(folded)
+if a.count % 2 != 0 {
+    let extra = a[a.count/2]
+    folded.append(extra)
+    print(folded)
+}
