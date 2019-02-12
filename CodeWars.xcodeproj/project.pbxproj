@@ -11,6 +11,8 @@
 		8033F82D220E7DC100DE17E4 /* CodeWarsUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8033F82C220E7DC100DE17E4 /* CodeWarsUnitTests.swift */; };
 		8033F857220E9F3900DE17E4 /* AthleticsStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8033F856220E9F3900DE17E4 /* AthleticsStats.swift */; };
 		803648BD2211AA55003CE06E /* FoldArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803648BC2211AA55003CE06E /* FoldArray.swift */; };
+		803648BF2211CF33003CE06E /* ChooseBestSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803648BE2211CF33003CE06E /* ChooseBestSum.swift */; };
+		803648C122129467003CE06E /* nbDig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803648C022129467003CE06E /* nbDig.swift */; };
 		80758A20221132FE004B48CA /* sumOfTwoSmallestIntegers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80758A1F221132FE004B48CA /* sumOfTwoSmallestIntegers.swift */; };
 		80758A2222113D7F004B48CA /* StringRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80758A2122113D7F004B48CA /* StringRotation.swift */; };
 		80758A2422118595004B48CA /* Mumbling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80758A2322118595004B48CA /* Mumbling.swift */; };
@@ -37,6 +39,8 @@
 		8033F834220E869300DE17E4 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		8033F856220E9F3900DE17E4 /* AthleticsStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthleticsStats.swift; sourceTree = "<group>"; };
 		803648BC2211AA55003CE06E /* FoldArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoldArray.swift; sourceTree = "<group>"; };
+		803648BE2211CF33003CE06E /* ChooseBestSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseBestSum.swift; sourceTree = "<group>"; };
+		803648C022129467003CE06E /* nbDig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nbDig.swift; sourceTree = "<group>"; };
 		80758A1F221132FE004B48CA /* sumOfTwoSmallestIntegers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sumOfTwoSmallestIntegers.swift; sourceTree = "<group>"; };
 		80758A2122113D7F004B48CA /* StringRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringRotation.swift; sourceTree = "<group>"; };
 		80758A2322118595004B48CA /* Mumbling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mumbling.swift; sourceTree = "<group>"; };
@@ -97,6 +101,8 @@
 				80758A2122113D7F004B48CA /* StringRotation.swift */,
 				80758A2322118595004B48CA /* Mumbling.swift */,
 				803648BC2211AA55003CE06E /* FoldArray.swift */,
+				803648BE2211CF33003CE06E /* ChooseBestSum.swift */,
+				803648C022129467003CE06E /* nbDig.swift */,
 			);
 			path = CodeWarsUnitTests;
 			sourceTree = "<group>";
@@ -198,6 +204,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				80758A20221132FE004B48CA /* sumOfTwoSmallestIntegers.swift in Sources */,
+				803648BF2211CF33003CE06E /* ChooseBestSum.swift in Sources */,
+				803648C122129467003CE06E /* nbDig.swift in Sources */,
 				80758A2422118595004B48CA /* Mumbling.swift in Sources */,
 				803648BD2211AA55003CE06E /* FoldArray.swift in Sources */,
 				8033F82D220E7DC100DE17E4 /* CodeWarsUnitTests.swift in Sources */,
