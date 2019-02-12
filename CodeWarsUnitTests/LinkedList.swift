@@ -8,6 +8,8 @@
 
 import XCTest
 
+extension String: Error {}
+
 class LinkedList: XCTestCase {
 
     class Node {
@@ -51,6 +53,32 @@ class LinkedList: XCTestCase {
         }
 
         return length
+    }
+
+    func getNth(_ head: Node?, _ index: Int) throws -> Node? {
+        guard var current = head else { throw "Linked List no set" }
+        guard index != 0 else { return current }
+
+        var idx = 0
+        while let nextNode = current.next {
+            idx += 1
+            if idx == index { return nextNode }
+            current = nextNode
+        }
+
+        throw "Index not Found"
+    }
+
+    func testNode() {
+
+        let list:Node? = buildOneTwoThree()
+
+        XCTAssertEqual(try! getNth(list, 0)?.data, 1)
+        XCTAssertEqual(try! getNth(list, 1)?.data, 2)
+        XCTAssertEqual(try! getNth(list, 2)?.data, 3)
+        XCTAssertThrowsError(try getNth(list, 3))
+        XCTAssertThrowsError(try getNth(list, 10))
+        XCTAssertThrowsError(try getNth(list, -1))
     }
 
 
