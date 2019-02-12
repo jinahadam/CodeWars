@@ -29,6 +29,49 @@ class LinkedList: XCTestCase {
         return push(push(push(nil, 3), 2), 1)
     }
 
+    func length(_ head: Node?) -> Int {
+        guard var current = head else { return 0 }
+        var length = 1
+
+        while let nextNode = current.next {
+            length += 1
+            current = nextNode
+        }
+
+        return length
+    }
+
+    func count(_ head: Node?, _ data: Int) -> Int {
+        guard var current = head else { return 0 }
+        var length = current.data == data ? 1 : 0
+
+        while let nextNode = current.next {
+            length += nextNode.data == data ? 1: 0
+            current = nextNode
+        }
+
+        return length
+    }
+
+
+    func testLength() {
+
+        let list:Node? = buildOneTwoThree()
+
+        XCTAssertEqual(length(nil), 0)
+        XCTAssertEqual(length(Node(1)), 1)
+        XCTAssertEqual(length(list), 3)
+    }
+
+    func testCountWith3ItemList() {
+        let list:Node? = buildOneTwoThree()
+
+        XCTAssertEqual(count(list, 1), 1)
+        XCTAssertEqual(count(list, 2), 1)
+        XCTAssertEqual(count(list, 3), 1)
+    }
+
+
     func testInsertNode() {
         XCTAssertEqual(push(nil, 1).data, 1, "Should be able to create a new linked list with push().");
         XCTAssertNil(push(nil, 1).next, "Should be able to create a new linked list with push().");
