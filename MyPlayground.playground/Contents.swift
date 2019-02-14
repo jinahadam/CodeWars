@@ -1,4 +1,4 @@
-import Cocoa
+import Foundation
 
-let a = [161, 162, 163, 163, 164, 165, 168, 169, 170, 171]
-print(a.first(where: { ( $0 <= 163 || $0 == 163 ) }))
+//[4, 3, 9, 7, 2, 1]), [2, 9, 3, 49, 4, 1]
+let a = [4, 3, 9, 7, 2, 1].flatMap { (sqrt($0) - Int(sqrt(Double($0)))) == 0 ? Int(sqrt(Double($0))) : Int(pow(Double($0), 2))  }
