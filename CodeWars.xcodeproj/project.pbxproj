@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80170F3A22171258003D1A68 /* TimeStringCorrection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80170F3922171258003D1A68 /* TimeStringCorrection.swift */; };
 		8033F81E220E7D2400DE17E4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8033F81D220E7D2400DE17E4 /* main.swift */; };
 		8033F82D220E7DC100DE17E4 /* CodeWarsUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8033F82C220E7DC100DE17E4 /* CodeWarsUnitTests.swift */; };
 		8033F857220E9F3900DE17E4 /* AthleticsStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8033F856220E9F3900DE17E4 /* AthleticsStats.swift */; };
@@ -22,6 +23,8 @@
 		8079A393221518EB00FE19CB /* FunctionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8079A392221518EB00FE19CB /* FunctionTest.swift */; };
 		8079A3952215365F00FE19CB /* StringSquard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8079A3942215365F00FE19CB /* StringSquard.swift */; };
 		8079A39722153CD400FE19CB /* SumOfMultiples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8079A39622153CD400FE19CB /* SumOfMultiples.swift */; };
+		8079A399221570B900FE19CB /* Wallpaper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8079A398221570B900FE19CB /* Wallpaper.swift */; };
+		8079A39D2216961100FE19CB /* ReplaceAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8079A39C2216961100FE19CB /* ReplaceAll.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +40,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		80170F3922171258003D1A68 /* TimeStringCorrection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeStringCorrection.swift; sourceTree = "<group>"; };
 		8033F81A220E7D2400DE17E4 /* CodeWars */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodeWars; sourceTree = BUILT_PRODUCTS_DIR; };
 		8033F81D220E7D2400DE17E4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8033F82A220E7DC100DE17E4 /* CodeWarsUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeWarsUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,6 +60,8 @@
 		8079A392221518EB00FE19CB /* FunctionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionTest.swift; sourceTree = "<group>"; };
 		8079A3942215365F00FE19CB /* StringSquard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringSquard.swift; sourceTree = "<group>"; };
 		8079A39622153CD400FE19CB /* SumOfMultiples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOfMultiples.swift; sourceTree = "<group>"; };
+		8079A398221570B900FE19CB /* Wallpaper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wallpaper.swift; sourceTree = "<group>"; };
+		8079A39C2216961100FE19CB /* ReplaceAll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceAll.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +127,9 @@
 				8079A392221518EB00FE19CB /* FunctionTest.swift */,
 				8079A3942215365F00FE19CB /* StringSquard.swift */,
 				8079A39622153CD400FE19CB /* SumOfMultiples.swift */,
+				8079A398221570B900FE19CB /* Wallpaper.swift */,
+				8079A39C2216961100FE19CB /* ReplaceAll.swift */,
+				80170F3922171258003D1A68 /* TimeStringCorrection.swift */,
 			);
 			path = CodeWarsUnitTests;
 			sourceTree = "<group>";
@@ -221,6 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8079A39D2216961100FE19CB /* ReplaceAll.swift in Sources */,
 				803648C522129F5A003CE06E /* LinkedList.swift in Sources */,
 				80758A20221132FE004B48CA /* sumOfTwoSmallestIntegers.swift in Sources */,
 				8079A3952215365F00FE19CB /* StringSquard.swift in Sources */,
@@ -232,8 +242,10 @@
 				8079A39722153CD400FE19CB /* SumOfMultiples.swift in Sources */,
 				8079A3912215161200FE19CB /* Bmi.swift in Sources */,
 				80758A2222113D7F004B48CA /* StringRotation.swift in Sources */,
+				80170F3A22171258003D1A68 /* TimeStringCorrection.swift in Sources */,
 				8033F857220E9F3900DE17E4 /* AthleticsStats.swift in Sources */,
 				8079A38F22150DAE00FE19CB /* StringyStrings.swift in Sources */,
+				8079A399221570B900FE19CB /* Wallpaper.swift in Sources */,
 				8079A393221518EB00FE19CB /* FunctionTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
