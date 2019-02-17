@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		80170F3A22171258003D1A68 /* TimeStringCorrection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80170F3922171258003D1A68 /* TimeStringCorrection.swift */; };
 		80170F3C2218F7CA003D1A68 /* NDigit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80170F3B2218F7CA003D1A68 /* NDigit.swift */; };
+		80170F3E22190ACB003D1A68 /* NumbersWithDigitsInside.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80170F3D22190ACB003D1A68 /* NumbersWithDigitsInside.swift */; };
 		8033F81E220E7D2400DE17E4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8033F81D220E7D2400DE17E4 /* main.swift */; };
 		8033F82D220E7DC100DE17E4 /* CodeWarsUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8033F82C220E7DC100DE17E4 /* CodeWarsUnitTests.swift */; };
 		8033F857220E9F3900DE17E4 /* AthleticsStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8033F856220E9F3900DE17E4 /* AthleticsStats.swift */; };
@@ -43,6 +44,7 @@
 /* Begin PBXFileReference section */
 		80170F3922171258003D1A68 /* TimeStringCorrection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeStringCorrection.swift; sourceTree = "<group>"; };
 		80170F3B2218F7CA003D1A68 /* NDigit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDigit.swift; sourceTree = "<group>"; };
+		80170F3D22190ACB003D1A68 /* NumbersWithDigitsInside.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersWithDigitsInside.swift; sourceTree = "<group>"; };
 		8033F81A220E7D2400DE17E4 /* CodeWars */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodeWars; sourceTree = BUILT_PRODUCTS_DIR; };
 		8033F81D220E7D2400DE17E4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8033F82A220E7DC100DE17E4 /* CodeWarsUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeWarsUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -133,6 +135,7 @@
 				8079A39C2216961100FE19CB /* ReplaceAll.swift */,
 				80170F3922171258003D1A68 /* TimeStringCorrection.swift */,
 				80170F3B2218F7CA003D1A68 /* NDigit.swift */,
+				80170F3D22190ACB003D1A68 /* NumbersWithDigitsInside.swift */,
 			);
 			path = CodeWarsUnitTests;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 				8079A39D2216961100FE19CB /* ReplaceAll.swift in Sources */,
 				803648C522129F5A003CE06E /* LinkedList.swift in Sources */,
 				80758A20221132FE004B48CA /* sumOfTwoSmallestIntegers.swift in Sources */,
+				80170F3E22190ACB003D1A68 /* NumbersWithDigitsInside.swift in Sources */,
 				8079A3952215365F00FE19CB /* StringSquard.swift in Sources */,
 				803648BF2211CF33003CE06E /* ChooseBestSum.swift in Sources */,
 				803648C122129467003CE06E /* nbDig.swift in Sources */,
