@@ -1,10 +1,7 @@
 import Foundation
 
 
-extension String {
-    func toJadenCase() -> String {
-        return self.components(separatedBy: " ").map { $0.capitalized }.joined(separator: " ")
-    }
-}
+let a = NSDecimalNumber(floatLiteral: 14.5123123123123123)
+let scale = NSDecimalNumberHandler(roundingMode: .plain, scale: 5, raiseOnExactness: false, raiseOnOverflow: false, raiseOnUnderflow: false, raiseOnDivideByZero: false)
+a.rounding(accordingToBehavior: scale)
 
-"This is a test".capitalized

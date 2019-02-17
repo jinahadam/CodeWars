@@ -10,24 +10,16 @@ import XCTest
 
 class EuclideanDistance: XCTestCase {
 
-    override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    func euclideanDistanceBetween(_ point1: [Double], and point2: [Double]) -> Double {
+        let divisor = pow(10, 2.0)
+        let distance = sqrt(zip(point1, point2).map(-).map { $0 * $0 }.reduce(0,+))
+        return round(distance * divisor)/divisor
     }
 
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    func testOne() {
+        XCTAssertEqual(euclideanDistanceBetween([-1], and: [2]), 3.0)
+        XCTAssertEqual(euclideanDistanceBetween([-1, 2], and: [2, 4]), 3.61)
+        XCTAssertEqual(euclideanDistanceBetween([-1, 2, 5], and: [2, 4, 9]), 5.39)
     }
 
 }
