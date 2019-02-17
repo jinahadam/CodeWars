@@ -13,21 +13,21 @@ class TimeStringCorrection: XCTestCase {
     func correct(_ timeString: String?) -> String? {
         guard let string = timeString else { return nil }
         guard string != "" else { return "" }
-        var timeSplits = string.split(separator: ":").flatMap { Int($0) }
+        var timeSplits = string.split(separator: ":").flatMap { Double($0) }
         if timeSplits.count != 3 { return nil }
 
-        if timeSplits[2] > 59 {
-            timeSplits[1] += Int(ceil(Double(timeSplits[2] - 60)/60.0))
-            timeSplits[2] = timeSplits[2] - 60
+        while timeSplits[2] > 59 {
+            timeSplits[1] = timeSplits[2] == 60 ? timeSplits[1] + 1 : ceil((timeSplits[2] - 60.0)/60.0 + timeSplits[1])
+            timeSplits[2] -= 60
         }
-        if timeSplits[1] > 59 {
-            timeSplits[0] += Int(ceil(Double(timeSplits[1] - 60)/60.0))
-            timeSplits[1] = timeSplits[1] - 60
+        while timeSplits[1] > 59 {
+            timeSplits[0] = timeSplits[1] == 60 ? timeSplits[0] + 1 : ceil((timeSplits[1] - 60.0)/60.0 + timeSplits[0])
+            timeSplits[1] -= 60
         }
         while timeSplits[0] >= 23 {
             timeSplits[0] -= 24
         }
-        return timeSplits.flatMap { String(format: "%02d", $0) }.joined(separator: ":")
+        return timeSplits.flatMap { String(format: "%02d", Int($0)) }.joined(separator: ":")
     }
 
     func testNil() {
@@ -45,6 +45,10 @@ class TimeStringCorrection: XCTestCase {
     }
 
     func testValid() {
+        XCTAssertEqual("01:30:30", correct("24:90:30"))
+        XCTAssertEqual("01:00:00", correct("24:59:60"))
+        XCTAssertEqual("01:00:00", correct("24:59:60"))
+        XCTAssertEqual("15:00:34", correct("14:59:94"))
         XCTAssertEqual("09:10:01", correct("09:10:01"))
         XCTAssertEqual("12:10:10", correct("11:70:10"))
         XCTAssertEqual("20:40:39", correct("19:99:99"))
