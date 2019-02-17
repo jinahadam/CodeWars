@@ -1,7 +1,5 @@
 import Foundation
 
 
-let a = NSDecimalNumber(floatLiteral: 14.5123123123123123)
-let scale = NSDecimalNumberHandler(roundingMode: .plain, scale: 5, raiseOnExactness: false, raiseOnOverflow: false, raiseOnUnderflow: false, raiseOnDivideByZero: false)
-a.rounding(accordingToBehavior: scale)
-
+let a = String(String(13, radix: 2, uppercase: false).reversed()).map { "\($0) " }
+print(a.joined())

@@ -14,6 +14,7 @@
 		80170F4222191718003D1A68 /* FindDeletedNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80170F4122191718003D1A68 /* FindDeletedNumber.swift */; };
 		80170F4422193BE8003D1A68 /* EuclideanDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80170F4322193BE8003D1A68 /* EuclideanDistance.swift */; };
 		80170F462219412C003D1A68 /* FunctionalAddition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80170F452219412C003D1A68 /* FunctionalAddition.swift */; };
+		80170F4822194251003D1A68 /* CountArare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80170F4722194251003D1A68 /* CountArare.swift */; };
 		8033F81E220E7D2400DE17E4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8033F81D220E7D2400DE17E4 /* main.swift */; };
 		8033F82D220E7DC100DE17E4 /* CodeWarsUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8033F82C220E7DC100DE17E4 /* CodeWarsUnitTests.swift */; };
 		8033F857220E9F3900DE17E4 /* AthleticsStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8033F856220E9F3900DE17E4 /* AthleticsStats.swift */; };
@@ -53,6 +54,7 @@
 		80170F4122191718003D1A68 /* FindDeletedNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDeletedNumber.swift; sourceTree = "<group>"; };
 		80170F4322193BE8003D1A68 /* EuclideanDistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EuclideanDistance.swift; sourceTree = "<group>"; };
 		80170F452219412C003D1A68 /* FunctionalAddition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionalAddition.swift; sourceTree = "<group>"; };
+		80170F4722194251003D1A68 /* CountArare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountArare.swift; sourceTree = "<group>"; };
 		8033F81A220E7D2400DE17E4 /* CodeWars */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodeWars; sourceTree = BUILT_PRODUCTS_DIR; };
 		8033F81D220E7D2400DE17E4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8033F82A220E7DC100DE17E4 /* CodeWarsUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeWarsUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -148,6 +150,7 @@
 				80170F4122191718003D1A68 /* FindDeletedNumber.swift */,
 				80170F4322193BE8003D1A68 /* EuclideanDistance.swift */,
 				80170F452219412C003D1A68 /* FunctionalAddition.swift */,
+				80170F4722194251003D1A68 /* CountArare.swift */,
 			);
 			path = CodeWarsUnitTests;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				8079A38F22150DAE00FE19CB /* StringyStrings.swift in Sources */,
 				8079A399221570B900FE19CB /* Wallpaper.swift in Sources */,
 				8079A393221518EB00FE19CB /* FunctionTest.swift in Sources */,
+				80170F4822194251003D1A68 /* CountArare.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
