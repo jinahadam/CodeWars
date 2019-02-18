@@ -1,5 +1,5 @@
 import Foundation
 
+(2360688 == 46288 * 51)
 
-let a = String(String(13, radix: 2, uppercase: false).reversed()).map { "\($0) " }
-print(a.joined())
+2360688 / 46288 == 51
