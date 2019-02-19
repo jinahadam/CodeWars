@@ -10,7 +10,6 @@ import XCTest
 
 class SumFractions: XCTestCase {
 
-
     func rationalAddition(_ a: (a: Int, b: Int),_ b: (c: Int, d: Int)) -> (Int, Int) {
         return ((a.a * b.d) + (a.b * b.c), a.b * b.d)
     }
