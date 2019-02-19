@@ -18,6 +18,7 @@
 		80170F4A2219AB06003D1A68 /* FizzBuzzCuckooClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80170F492219AB06003D1A68 /* FizzBuzzCuckooClock.swift */; };
 		80170F4C2219B63E003D1A68 /* FloatingPointApproximation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80170F4B2219B63E003D1A68 /* FloatingPointApproximation.swift */; };
 		80170F52221AF007003D1A68 /* DigPow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80170F51221AF007003D1A68 /* DigPow.swift */; };
+		80170F54221B075D003D1A68 /* RevRot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80170F53221B075D003D1A68 /* RevRot.swift */; };
 		8033F81E220E7D2400DE17E4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8033F81D220E7D2400DE17E4 /* main.swift */; };
 		8033F82D220E7DC100DE17E4 /* CodeWarsUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8033F82C220E7DC100DE17E4 /* CodeWarsUnitTests.swift */; };
 		8033F857220E9F3900DE17E4 /* AthleticsStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8033F856220E9F3900DE17E4 /* AthleticsStats.swift */; };
@@ -61,6 +62,7 @@
 		80170F492219AB06003D1A68 /* FizzBuzzCuckooClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzCuckooClock.swift; sourceTree = "<group>"; };
 		80170F4B2219B63E003D1A68 /* FloatingPointApproximation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingPointApproximation.swift; sourceTree = "<group>"; };
 		80170F51221AF007003D1A68 /* DigPow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigPow.swift; sourceTree = "<group>"; };
+		80170F53221B075D003D1A68 /* RevRot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevRot.swift; sourceTree = "<group>"; };
 		8033F81A220E7D2400DE17E4 /* CodeWars */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodeWars; sourceTree = BUILT_PRODUCTS_DIR; };
 		8033F81D220E7D2400DE17E4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8033F82A220E7DC100DE17E4 /* CodeWarsUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeWarsUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -160,6 +162,7 @@
 				80170F492219AB06003D1A68 /* FizzBuzzCuckooClock.swift */,
 				80170F4B2219B63E003D1A68 /* FloatingPointApproximation.swift */,
 				80170F51221AF007003D1A68 /* DigPow.swift */,
+				80170F53221B075D003D1A68 /* RevRot.swift */,
 			);
 			path = CodeWarsUnitTests;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				80170F4222191718003D1A68 /* FindDeletedNumber.swift in Sources */,
 				803648BF2211CF33003CE06E /* ChooseBestSum.swift in Sources */,
 				803648C122129467003CE06E /* nbDig.swift in Sources */,
+				80170F54221B075D003D1A68 /* RevRot.swift in Sources */,
 				80758A2422118595004B48CA /* Mumbling.swift in Sources */,
 				80170F4C2219B63E003D1A68 /* FloatingPointApproximation.swift in Sources */,
 				803648BD2211AA55003CE06E /* FoldArray.swift in Sources */,

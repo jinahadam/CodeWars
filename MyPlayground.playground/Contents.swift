@@ -1,5 +1,7 @@
 import Foundation
 
-(2360688 == 46288 * 51)
+let a = 73304
 
-2360688 / 46288 == 51
+print(String("\(a)".reversed())
+
+
