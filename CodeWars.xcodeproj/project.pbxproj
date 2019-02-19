@@ -37,6 +37,7 @@
 		8079A39722153CD400FE19CB /* SumOfMultiples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8079A39622153CD400FE19CB /* SumOfMultiples.swift */; };
 		8079A399221570B900FE19CB /* Wallpaper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8079A398221570B900FE19CB /* Wallpaper.swift */; };
 		8079A39D2216961100FE19CB /* ReplaceAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8079A39C2216961100FE19CB /* ReplaceAll.swift */; };
+		80F4C2C9221C281F00FA882B /* SumFractions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F4C2C8221C281F00FA882B /* SumFractions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -86,6 +87,7 @@
 		8079A39622153CD400FE19CB /* SumOfMultiples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOfMultiples.swift; sourceTree = "<group>"; };
 		8079A398221570B900FE19CB /* Wallpaper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wallpaper.swift; sourceTree = "<group>"; };
 		8079A39C2216961100FE19CB /* ReplaceAll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceAll.swift; sourceTree = "<group>"; };
+		80F4C2C8221C281F00FA882B /* SumFractions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumFractions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +168,7 @@
 				80170F51221AF007003D1A68 /* DigPow.swift */,
 				80170F53221B075D003D1A68 /* RevRot.swift */,
 				80170F57221C0180003D1A68 /* SquaredCompare.swift */,
+				80F4C2C8221C281F00FA882B /* SumFractions.swift */,
 			);
 			path = CodeWarsUnitTests;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				80170F3C2218F7CA003D1A68 /* NDigit.swift in Sources */,
 				8079A38F22150DAE00FE19CB /* StringyStrings.swift in Sources */,
 				8079A399221570B900FE19CB /* Wallpaper.swift in Sources */,
+				80F4C2C9221C281F00FA882B /* SumFractions.swift in Sources */,
 				80170F4A2219AB06003D1A68 /* FizzBuzzCuckooClock.swift in Sources */,
 				8079A393221518EB00FE19CB /* FunctionTest.swift in Sources */,
 				80170F52221AF007003D1A68 /* DigPow.swift in Sources */,
