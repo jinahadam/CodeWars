@@ -19,6 +19,7 @@
 		80170F4C2219B63E003D1A68 /* FloatingPointApproximation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80170F4B2219B63E003D1A68 /* FloatingPointApproximation.swift */; };
 		80170F52221AF007003D1A68 /* DigPow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80170F51221AF007003D1A68 /* DigPow.swift */; };
 		80170F54221B075D003D1A68 /* RevRot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80170F53221B075D003D1A68 /* RevRot.swift */; };
+		80170F58221C0180003D1A68 /* SquaredCompare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80170F57221C0180003D1A68 /* SquaredCompare.swift */; };
 		8033F81E220E7D2400DE17E4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8033F81D220E7D2400DE17E4 /* main.swift */; };
 		8033F82D220E7DC100DE17E4 /* CodeWarsUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8033F82C220E7DC100DE17E4 /* CodeWarsUnitTests.swift */; };
 		8033F857220E9F3900DE17E4 /* AthleticsStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8033F856220E9F3900DE17E4 /* AthleticsStats.swift */; };
@@ -63,6 +64,7 @@
 		80170F4B2219B63E003D1A68 /* FloatingPointApproximation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingPointApproximation.swift; sourceTree = "<group>"; };
 		80170F51221AF007003D1A68 /* DigPow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigPow.swift; sourceTree = "<group>"; };
 		80170F53221B075D003D1A68 /* RevRot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevRot.swift; sourceTree = "<group>"; };
+		80170F57221C0180003D1A68 /* SquaredCompare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquaredCompare.swift; sourceTree = "<group>"; };
 		8033F81A220E7D2400DE17E4 /* CodeWars */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodeWars; sourceTree = BUILT_PRODUCTS_DIR; };
 		8033F81D220E7D2400DE17E4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8033F82A220E7DC100DE17E4 /* CodeWarsUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeWarsUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -163,6 +165,7 @@
 				80170F4B2219B63E003D1A68 /* FloatingPointApproximation.swift */,
 				80170F51221AF007003D1A68 /* DigPow.swift */,
 				80170F53221B075D003D1A68 /* RevRot.swift */,
+				80170F57221C0180003D1A68 /* SquaredCompare.swift */,
 			);
 			path = CodeWarsUnitTests;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 				80758A2222113D7F004B48CA /* StringRotation.swift in Sources */,
 				80170F3A22171258003D1A68 /* TimeStringCorrection.swift in Sources */,
 				80170F462219412C003D1A68 /* FunctionalAddition.swift in Sources */,
+				80170F58221C0180003D1A68 /* SquaredCompare.swift in Sources */,
 				8033F857220E9F3900DE17E4 /* AthleticsStats.swift in Sources */,
 				80170F4022191453003D1A68 /* DontGiveMeFive.swift in Sources */,
 				80170F3C2218F7CA003D1A68 /* NDigit.swift in Sources */,
