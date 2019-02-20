@@ -42,6 +42,8 @@
 		80F4C2CD221C670F00FA882B /* WieghtForWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F4C2CC221C670F00FA882B /* WieghtForWeight.swift */; };
 		80F4C2CF221D046F00FA882B /* Rainfall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F4C2CE221D046F00FA882B /* Rainfall.swift */; };
 		80F4C2D1221D38D100FA882B /* SalesmenTravel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F4C2D0221D38D100FA882B /* SalesmenTravel.swift */; };
+		80F4C2D3221D65A400FA882B /* StepsInPrime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F4C2D2221D65A400FA882B /* StepsInPrime.swift */; };
+		80F4C2D5221D970700FA882B /* RemoveVowels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F4C2D4221D970700FA882B /* RemoveVowels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -96,6 +98,8 @@
 		80F4C2CC221C670F00FA882B /* WieghtForWeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WieghtForWeight.swift; sourceTree = "<group>"; };
 		80F4C2CE221D046F00FA882B /* Rainfall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rainfall.swift; sourceTree = "<group>"; };
 		80F4C2D0221D38D100FA882B /* SalesmenTravel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesmenTravel.swift; sourceTree = "<group>"; };
+		80F4C2D2221D65A400FA882B /* StepsInPrime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsInPrime.swift; sourceTree = "<group>"; };
+		80F4C2D4221D970700FA882B /* RemoveVowels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveVowels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +185,8 @@
 				80F4C2CC221C670F00FA882B /* WieghtForWeight.swift */,
 				80F4C2CE221D046F00FA882B /* Rainfall.swift */,
 				80F4C2D0221D38D100FA882B /* SalesmenTravel.swift */,
+				80F4C2D2221D65A400FA882B /* StepsInPrime.swift */,
+				80F4C2D4221D970700FA882B /* RemoveVowels.swift */,
 			);
 			path = CodeWarsUnitTests;
 			sourceTree = "<group>";
@@ -293,8 +299,10 @@
 				803648BF2211CF33003CE06E /* ChooseBestSum.swift in Sources */,
 				803648C122129467003CE06E /* nbDig.swift in Sources */,
 				80170F54221B075D003D1A68 /* RevRot.swift in Sources */,
+				80F4C2D3221D65A400FA882B /* StepsInPrime.swift in Sources */,
 				80758A2422118595004B48CA /* Mumbling.swift in Sources */,
 				80170F4C2219B63E003D1A68 /* FloatingPointApproximation.swift in Sources */,
+				80F4C2D5221D970700FA882B /* RemoveVowels.swift in Sources */,
 				803648BD2211AA55003CE06E /* FoldArray.swift in Sources */,
 				8033F82D220E7DC100DE17E4 /* CodeWarsUnitTests.swift in Sources */,
 				8079A39722153CD400FE19CB /* SumOfMultiples.swift in Sources */,
