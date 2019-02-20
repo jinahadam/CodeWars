@@ -40,6 +40,8 @@
 		80F4C2C9221C281F00FA882B /* SumFractions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F4C2C8221C281F00FA882B /* SumFractions.swift */; };
 		80F4C2CB221C4C9500FA882B /* Passphrase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F4C2CA221C4C9500FA882B /* Passphrase.swift */; };
 		80F4C2CD221C670F00FA882B /* WieghtForWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F4C2CC221C670F00FA882B /* WieghtForWeight.swift */; };
+		80F4C2CF221D046F00FA882B /* Rainfall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F4C2CE221D046F00FA882B /* Rainfall.swift */; };
+		80F4C2D1221D38D100FA882B /* SalesmenTravel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F4C2D0221D38D100FA882B /* SalesmenTravel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -92,6 +94,8 @@
 		80F4C2C8221C281F00FA882B /* SumFractions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumFractions.swift; sourceTree = "<group>"; };
 		80F4C2CA221C4C9500FA882B /* Passphrase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passphrase.swift; sourceTree = "<group>"; };
 		80F4C2CC221C670F00FA882B /* WieghtForWeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WieghtForWeight.swift; sourceTree = "<group>"; };
+		80F4C2CE221D046F00FA882B /* Rainfall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rainfall.swift; sourceTree = "<group>"; };
+		80F4C2D0221D38D100FA882B /* SalesmenTravel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesmenTravel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +179,8 @@
 				80170F3922171258003D1A68 /* TimeStringCorrection.swift */,
 				8079A398221570B900FE19CB /* Wallpaper.swift */,
 				80F4C2CC221C670F00FA882B /* WieghtForWeight.swift */,
+				80F4C2CE221D046F00FA882B /* Rainfall.swift */,
+				80F4C2D0221D38D100FA882B /* SalesmenTravel.swift */,
 			);
 			path = CodeWarsUnitTests;
 			sourceTree = "<group>";
@@ -275,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80F4C2CF221D046F00FA882B /* Rainfall.swift in Sources */,
 				8079A39D2216961100FE19CB /* ReplaceAll.swift in Sources */,
 				803648C522129F5A003CE06E /* LinkedList.swift in Sources */,
 				80758A20221132FE004B48CA /* sumOfTwoSmallestIntegers.swift in Sources */,
@@ -297,6 +304,7 @@
 				80170F462219412C003D1A68 /* FunctionalAddition.swift in Sources */,
 				80170F58221C0180003D1A68 /* SquaredCompare.swift in Sources */,
 				8033F857220E9F3900DE17E4 /* AthleticsStats.swift in Sources */,
+				80F4C2D1221D38D100FA882B /* SalesmenTravel.swift in Sources */,
 				80170F4022191453003D1A68 /* DontGiveMeFive.swift in Sources */,
 				80170F3C2218F7CA003D1A68 /* NDigit.swift in Sources */,
 				8079A38F22150DAE00FE19CB /* StringyStrings.swift in Sources */,
