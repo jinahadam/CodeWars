@@ -39,6 +39,7 @@
 		8079A39D2216961100FE19CB /* ReplaceAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8079A39C2216961100FE19CB /* ReplaceAll.swift */; };
 		80F4C2C9221C281F00FA882B /* SumFractions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F4C2C8221C281F00FA882B /* SumFractions.swift */; };
 		80F4C2CB221C4C9500FA882B /* Passphrase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F4C2CA221C4C9500FA882B /* Passphrase.swift */; };
+		80F4C2CD221C670F00FA882B /* WieghtForWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F4C2CC221C670F00FA882B /* WieghtForWeight.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -90,6 +91,7 @@
 		8079A39C2216961100FE19CB /* ReplaceAll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceAll.swift; sourceTree = "<group>"; };
 		80F4C2C8221C281F00FA882B /* SumFractions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumFractions.swift; sourceTree = "<group>"; };
 		80F4C2CA221C4C9500FA882B /* Passphrase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passphrase.swift; sourceTree = "<group>"; };
+		80F4C2CC221C670F00FA882B /* WieghtForWeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WieghtForWeight.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,38 +142,39 @@
 		8033F82B220E7DC100DE17E4 /* CodeWarsUnitTests */ = {
 			isa = PBXGroup;
 			children = (
-				8033F82C220E7DC100DE17E4 /* CodeWarsUnitTests.swift */,
-				8033F82E220E7DC100DE17E4 /* Info.plist */,
 				8033F856220E9F3900DE17E4 /* AthleticsStats.swift */,
-				80758A1F221132FE004B48CA /* sumOfTwoSmallestIntegers.swift */,
-				80758A2122113D7F004B48CA /* StringRotation.swift */,
-				80758A2322118595004B48CA /* Mumbling.swift */,
-				803648BC2211AA55003CE06E /* FoldArray.swift */,
-				803648BE2211CF33003CE06E /* ChooseBestSum.swift */,
-				803648C022129467003CE06E /* nbDig.swift */,
-				803648C422129F5A003CE06E /* LinkedList.swift */,
-				8079A38E22150DAE00FE19CB /* StringyStrings.swift */,
 				8079A3902215161200FE19CB /* Bmi.swift */,
-				8079A392221518EB00FE19CB /* FunctionTest.swift */,
-				8079A3942215365F00FE19CB /* StringSquard.swift */,
-				8079A39622153CD400FE19CB /* SumOfMultiples.swift */,
-				8079A398221570B900FE19CB /* Wallpaper.swift */,
-				8079A39C2216961100FE19CB /* ReplaceAll.swift */,
-				80170F3922171258003D1A68 /* TimeStringCorrection.swift */,
-				80170F3B2218F7CA003D1A68 /* NDigit.swift */,
-				80170F3D22190ACB003D1A68 /* NumbersWithDigitsInside.swift */,
-				80170F3F22191453003D1A68 /* DontGiveMeFive.swift */,
-				80170F4122191718003D1A68 /* FindDeletedNumber.swift */,
-				80170F4322193BE8003D1A68 /* EuclideanDistance.swift */,
-				80170F452219412C003D1A68 /* FunctionalAddition.swift */,
+				803648BE2211CF33003CE06E /* ChooseBestSum.swift */,
+				8033F82C220E7DC100DE17E4 /* CodeWarsUnitTests.swift */,
 				80170F4722194251003D1A68 /* CountArare.swift */,
+				80170F51221AF007003D1A68 /* DigPow.swift */,
+				80170F3F22191453003D1A68 /* DontGiveMeFive.swift */,
+				80170F4322193BE8003D1A68 /* EuclideanDistance.swift */,
+				80170F4122191718003D1A68 /* FindDeletedNumber.swift */,
 				80170F492219AB06003D1A68 /* FizzBuzzCuckooClock.swift */,
 				80170F4B2219B63E003D1A68 /* FloatingPointApproximation.swift */,
-				80170F51221AF007003D1A68 /* DigPow.swift */,
+				803648BC2211AA55003CE06E /* FoldArray.swift */,
+				80170F452219412C003D1A68 /* FunctionalAddition.swift */,
+				8079A392221518EB00FE19CB /* FunctionTest.swift */,
+				8033F82E220E7DC100DE17E4 /* Info.plist */,
+				803648C422129F5A003CE06E /* LinkedList.swift */,
+				80758A2322118595004B48CA /* Mumbling.swift */,
+				803648C022129467003CE06E /* nbDig.swift */,
+				80170F3B2218F7CA003D1A68 /* NDigit.swift */,
+				80170F3D22190ACB003D1A68 /* NumbersWithDigitsInside.swift */,
+				80F4C2CA221C4C9500FA882B /* Passphrase.swift */,
+				8079A39C2216961100FE19CB /* ReplaceAll.swift */,
 				80170F53221B075D003D1A68 /* RevRot.swift */,
 				80170F57221C0180003D1A68 /* SquaredCompare.swift */,
+				80758A2122113D7F004B48CA /* StringRotation.swift */,
+				8079A3942215365F00FE19CB /* StringSquard.swift */,
+				8079A38E22150DAE00FE19CB /* StringyStrings.swift */,
 				80F4C2C8221C281F00FA882B /* SumFractions.swift */,
-				80F4C2CA221C4C9500FA882B /* Passphrase.swift */,
+				8079A39622153CD400FE19CB /* SumOfMultiples.swift */,
+				80758A1F221132FE004B48CA /* sumOfTwoSmallestIntegers.swift */,
+				80170F3922171258003D1A68 /* TimeStringCorrection.swift */,
+				8079A398221570B900FE19CB /* Wallpaper.swift */,
+				80F4C2CC221C670F00FA882B /* WieghtForWeight.swift */,
 			);
 			path = CodeWarsUnitTests;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				80170F3E22190ACB003D1A68 /* NumbersWithDigitsInside.swift in Sources */,
 				8079A3952215365F00FE19CB /* StringSquard.swift in Sources */,
 				80170F4222191718003D1A68 /* FindDeletedNumber.swift in Sources */,
+				80F4C2CD221C670F00FA882B /* WieghtForWeight.swift in Sources */,
 				803648BF2211CF33003CE06E /* ChooseBestSum.swift in Sources */,
 				803648C122129467003CE06E /* nbDig.swift in Sources */,
 				80170F54221B075D003D1A68 /* RevRot.swift in Sources */,
