@@ -15,13 +15,15 @@ class FindTheSmallest: XCTestCase {
         var smallest = Int.max
         var i = -1
         var j = 0
-        for k in (1..<intArray.count) {
+        for k in (0..<intArray.count) {
             if intArray[k] <= smallest {
                 smallest = intArray[k]
                 i = k
             }
         }
+        
         for m in (0..<intArray.count) {
+            if m == i { continue }
             if intArray[m] < smallest {
                 j = m + 1
             }
