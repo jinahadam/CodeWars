@@ -37,6 +37,7 @@
 		8079A39722153CD400FE19CB /* SumOfMultiples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8079A39622153CD400FE19CB /* SumOfMultiples.swift */; };
 		8079A399221570B900FE19CB /* Wallpaper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8079A398221570B900FE19CB /* Wallpaper.swift */; };
 		8079A39D2216961100FE19CB /* ReplaceAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8079A39C2216961100FE19CB /* ReplaceAll.swift */; };
+		80E7BAF8222BF40D00EDECF8 /* HiddenCubes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E7BAF7222BF40D00EDECF8 /* HiddenCubes.swift */; };
 		80F4C2C9221C281F00FA882B /* SumFractions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F4C2C8221C281F00FA882B /* SumFractions.swift */; };
 		80F4C2CB221C4C9500FA882B /* Passphrase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F4C2CA221C4C9500FA882B /* Passphrase.swift */; };
 		80F4C2CD221C670F00FA882B /* WieghtForWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F4C2CC221C670F00FA882B /* WieghtForWeight.swift */; };
@@ -94,6 +95,7 @@
 		8079A39622153CD400FE19CB /* SumOfMultiples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOfMultiples.swift; sourceTree = "<group>"; };
 		8079A398221570B900FE19CB /* Wallpaper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wallpaper.swift; sourceTree = "<group>"; };
 		8079A39C2216961100FE19CB /* ReplaceAll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceAll.swift; sourceTree = "<group>"; };
+		80E7BAF7222BF40D00EDECF8 /* HiddenCubes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiddenCubes.swift; sourceTree = "<group>"; };
 		80F4C2C8221C281F00FA882B /* SumFractions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumFractions.swift; sourceTree = "<group>"; };
 		80F4C2CA221C4C9500FA882B /* Passphrase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passphrase.swift; sourceTree = "<group>"; };
 		80F4C2CC221C670F00FA882B /* WieghtForWeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WieghtForWeight.swift; sourceTree = "<group>"; };
@@ -190,6 +192,7 @@
 				8079A398221570B900FE19CB /* Wallpaper.swift */,
 				80F4C2CC221C670F00FA882B /* WieghtForWeight.swift */,
 				80F4C2D822213DA900FA882B /* FindTheSmallest.swift */,
+				80E7BAF7222BF40D00EDECF8 /* HiddenCubes.swift */,
 			);
 			path = CodeWarsUnitTests;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 			files = (
 				80F4C2CF221D046F00FA882B /* Rainfall.swift in Sources */,
 				8079A39D2216961100FE19CB /* ReplaceAll.swift in Sources */,
+				80E7BAF8222BF40D00EDECF8 /* HiddenCubes.swift in Sources */,
 				803648C522129F5A003CE06E /* LinkedList.swift in Sources */,
 				80758A20221132FE004B48CA /* sumOfTwoSmallestIntegers.swift in Sources */,
 				80170F4422193BE8003D1A68 /* EuclideanDistance.swift in Sources */,

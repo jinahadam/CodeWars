@@ -1,25 +1,31 @@
 import Foundation
 
+let s = "&z371 upon 407298a --- dreary, ###100.153 I thought, 9926315strong and weary -127&() 1"
+s.replacingOccurrences(of: "(\\d{3})", with: "", options: [.regularExpression, .caseInsensitive], range: nil)
 
-func sieve(_ numbers: [Int]) -> [Int] {
-    if numbers.isEmpty { return [] }
-    let p = numbers.first!
-    let rest = numbers[1..<numbers.count]
-    return [p] + sieve(rest.filter { $0 % p > 0 })
-}
+let patter = "(\\d+)"
+var numbers = [String]()
+do {
+    let regex = try NSRegularExpression(pattern: patter, options: NSRegularExpression.Options.caseInsensitive)
+    let matches = regex.matches(in: s, options: [], range: NSRange(location: 0, length: s.utf16.count))
 
-func step(_ g: Int, _ m: Int, _ n: Int) -> (Int, Int)? {
-    let primes = sieve(Array(2...n)).filter { $0 > m }
-    if g > (primes[primes.count - 1] - primes[0]) { return nil }
-    if primes.count > 2 {
-        for i in (0..<primes.count) {
-            if let first = primes.first(where: { $0 - primes[i] == g }) {
-                return (primes[i], first)
-            }
+    for match in matches {
+        let range = match.range(at:1)
+        if let swiftRange = Range(range, in: s) {
+            let name = s[swiftRange]
+            print(name.prefix(3))
+            numbers.append(String(name.prefix(3)))
         }
     }
-    return nil
+} catch {}
+
+let cubes = numbers.map { $0.characters.map { Int(String($0))! * Int(String($0))! * Int(String($0))! }.reduce(0,+) }
+
+var results = [Int]()
+for i in 0..<cubes.count {
+    if String(cubes[i]) == numbers[i] {
+        results.append(cubes[i])
+    }
 }
+print(results)
 
-
- step(30000,2000,3000)
