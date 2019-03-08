@@ -1,4 +1,5 @@
 import Foundation
 
-"153 153 407 407 1120 Lucky"
-"153 0 153 407 0 407 1120 Lucky"
+"Phone => 1-541-914-3010, Name => E Kustur, Address => 133 Green Rd.  NY-56423"
+"Phone => 1-541-914-3010, Name => E Kustur, Address => 133 Green Rd. NY-56423"
+
