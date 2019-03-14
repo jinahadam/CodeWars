@@ -1,5 +1,7 @@
 import Foundation
-
-"Phone => 1-541-914-3010, Name => E Kustur, Address => 133 Green Rd.  NY-56423"
-"Phone => 1-541-914-3010, Name => E Kustur, Address => 133 Green Rd. NY-56423"
-
+let number = 123040
+var num = number
+while num != 0 {
+    print(num % 10)
+    num /= 10
+}

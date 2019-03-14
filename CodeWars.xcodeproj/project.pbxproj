@@ -37,6 +37,7 @@
 		8079A39722153CD400FE19CB /* SumOfMultiples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8079A39622153CD400FE19CB /* SumOfMultiples.swift */; };
 		8079A399221570B900FE19CB /* Wallpaper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8079A398221570B900FE19CB /* Wallpaper.swift */; };
 		8079A39D2216961100FE19CB /* ReplaceAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8079A39C2216961100FE19CB /* ReplaceAll.swift */; };
+		80CABBD12239FFCB0035D08B /* DivisbilityBy13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CABBD02239FFCB0035D08B /* DivisbilityBy13.swift */; };
 		80D988FD2230C0AE00263F5B /* PhoneDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D988FC2230C0AE00263F5B /* PhoneDirectory.swift */; };
 		80E7BAF8222BF40D00EDECF8 /* HiddenCubes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E7BAF7222BF40D00EDECF8 /* HiddenCubes.swift */; };
 		80F4C2C9221C281F00FA882B /* SumFractions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F4C2C8221C281F00FA882B /* SumFractions.swift */; };
@@ -96,6 +97,7 @@
 		8079A39622153CD400FE19CB /* SumOfMultiples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOfMultiples.swift; sourceTree = "<group>"; };
 		8079A398221570B900FE19CB /* Wallpaper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wallpaper.swift; sourceTree = "<group>"; };
 		8079A39C2216961100FE19CB /* ReplaceAll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceAll.swift; sourceTree = "<group>"; };
+		80CABBD02239FFCB0035D08B /* DivisbilityBy13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisbilityBy13.swift; sourceTree = "<group>"; };
 		80D988FC2230C0AE00263F5B /* PhoneDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneDirectory.swift; sourceTree = "<group>"; };
 		80E7BAF7222BF40D00EDECF8 /* HiddenCubes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiddenCubes.swift; sourceTree = "<group>"; };
 		80F4C2C8221C281F00FA882B /* SumFractions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumFractions.swift; sourceTree = "<group>"; };
@@ -196,6 +198,7 @@
 				80F4C2D822213DA900FA882B /* FindTheSmallest.swift */,
 				80E7BAF7222BF40D00EDECF8 /* HiddenCubes.swift */,
 				80D988FC2230C0AE00263F5B /* PhoneDirectory.swift */,
+				80CABBD02239FFCB0035D08B /* DivisbilityBy13.swift */,
 			);
 			path = CodeWarsUnitTests;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 				80170F4222191718003D1A68 /* FindDeletedNumber.swift in Sources */,
 				80F4C2CD221C670F00FA882B /* WieghtForWeight.swift in Sources */,
 				803648BF2211CF33003CE06E /* ChooseBestSum.swift in Sources */,
+				80CABBD12239FFCB0035D08B /* DivisbilityBy13.swift in Sources */,
 				803648C122129467003CE06E /* nbDig.swift in Sources */,
 				80170F54221B075D003D1A68 /* RevRot.swift in Sources */,
 				80F4C2D3221D65A400FA882B /* StepsInPrime.swift in Sources */,
