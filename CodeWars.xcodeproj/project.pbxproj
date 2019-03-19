@@ -38,6 +38,7 @@
 		8079A399221570B900FE19CB /* Wallpaper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8079A398221570B900FE19CB /* Wallpaper.swift */; };
 		8079A39D2216961100FE19CB /* ReplaceAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8079A39C2216961100FE19CB /* ReplaceAll.swift */; };
 		80CABBD12239FFCB0035D08B /* DivisbilityBy13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CABBD02239FFCB0035D08B /* DivisbilityBy13.swift */; };
+		80CABBD32241A0C20035D08B /* HowManyPizzas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CABBD22241A0C20035D08B /* HowManyPizzas.swift */; };
 		80D988FD2230C0AE00263F5B /* PhoneDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D988FC2230C0AE00263F5B /* PhoneDirectory.swift */; };
 		80E7BAF8222BF40D00EDECF8 /* HiddenCubes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E7BAF7222BF40D00EDECF8 /* HiddenCubes.swift */; };
 		80F4C2C9221C281F00FA882B /* SumFractions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F4C2C8221C281F00FA882B /* SumFractions.swift */; };
@@ -98,6 +99,7 @@
 		8079A398221570B900FE19CB /* Wallpaper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wallpaper.swift; sourceTree = "<group>"; };
 		8079A39C2216961100FE19CB /* ReplaceAll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceAll.swift; sourceTree = "<group>"; };
 		80CABBD02239FFCB0035D08B /* DivisbilityBy13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisbilityBy13.swift; sourceTree = "<group>"; };
+		80CABBD22241A0C20035D08B /* HowManyPizzas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowManyPizzas.swift; sourceTree = "<group>"; };
 		80D988FC2230C0AE00263F5B /* PhoneDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneDirectory.swift; sourceTree = "<group>"; };
 		80E7BAF7222BF40D00EDECF8 /* HiddenCubes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiddenCubes.swift; sourceTree = "<group>"; };
 		80F4C2C8221C281F00FA882B /* SumFractions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumFractions.swift; sourceTree = "<group>"; };
@@ -199,6 +201,7 @@
 				80E7BAF7222BF40D00EDECF8 /* HiddenCubes.swift */,
 				80D988FC2230C0AE00263F5B /* PhoneDirectory.swift */,
 				80CABBD02239FFCB0035D08B /* DivisbilityBy13.swift */,
+				80CABBD22241A0C20035D08B /* HowManyPizzas.swift */,
 			);
 			path = CodeWarsUnitTests;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				80170F4C2219B63E003D1A68 /* FloatingPointApproximation.swift in Sources */,
 				80D988FD2230C0AE00263F5B /* PhoneDirectory.swift in Sources */,
 				80F4C2D5221D970700FA882B /* RemoveVowels.swift in Sources */,
+				80CABBD32241A0C20035D08B /* HowManyPizzas.swift in Sources */,
 				803648BD2211AA55003CE06E /* FoldArray.swift in Sources */,
 				8033F82D220E7DC100DE17E4 /* CodeWarsUnitTests.swift in Sources */,
 				8079A39722153CD400FE19CB /* SumOfMultiples.swift in Sources */,
